@@ -1,4 +1,12 @@
 ByeGurl::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/schedule"
+
+  get "pages/rankings"
+
+  get "pages/strategy"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
