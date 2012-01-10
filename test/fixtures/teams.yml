@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  m-won: 1
+  m-lost: 1
+  m-tied: 1
+  g-won: 1
+  g-lost: 1
+  plus-minus: 1
+  win-percentage: 1
+
+two:
+  name: MyString
+  m-won: 1
+  m-lost: 1
+  m-tied: 1
+  g-won: 1
+  g-lost: 1
+  plus-minus: 1
+  win-percentage: 1

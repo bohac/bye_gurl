@@ -1,11 +1,22 @@
 ByeGurl::Application.routes.draw do
-  get "pages/home"
+  get "teams/new"
+  
+  match '/signup', :to => 'teams#new'
+  
+  match '/schedule', :to => 'pages#schedule'
+  match '/rankings', :to => 'pages#rankings'
+  match '/strategy', :to => 'pages#strategy'    
+  
+  
+  #get "teams/new"
 
-  get "pages/schedule"
+  #get "pages/home"
 
-  get "pages/rankings"
+  #get "pages/schedule"
 
-  get "pages/strategy"
+  #get "pages/rankings"
+
+  #get "pages/strategy"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
